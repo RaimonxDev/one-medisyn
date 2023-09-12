@@ -2,7 +2,9 @@
   "name": "@one-medisyn/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "clear-cache": "npx nx clear-cache"
+  },
   "private": true,
   "dependencies": {
     "@angular/animations": "~16.2.0",
