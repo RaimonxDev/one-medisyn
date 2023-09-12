@@ -14,7 +14,13 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@one-medisyn/auth": ["libs/auth/src/index.ts"],
+      "@one-medisyn/functions": ["libs/funtions/src/index.ts"],
+      "@one-medisyn/state": ["libs/state/src/index.ts"],
+      "@one-medisyn/tables": ["libs/tables/src/index.ts"],
+      "@one-medisyn/ui": ["libs/ui/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
