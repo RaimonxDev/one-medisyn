@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { stringToNumber } from '@one-medisyn/functions';
 
 @Component({
   selector: 'one-medisyn-root',
@@ -7,4 +8,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app2';
+
+
+  convert(value: string) {
+    console.log(stringToNumber(value));
+  }
 }

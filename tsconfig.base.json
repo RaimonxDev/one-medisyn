@@ -17,6 +17,7 @@
     "paths": {
       "@one-medisyn/auth": ["libs/auth/src/index.ts"],
       "@one-medisyn/functions": ["libs/funtions/src/index.ts"],
+      "@one-medisyn/state-manager": ["libs/state-manager/src/index.ts"],
       "@one-medisyn/tables": ["libs/tables/src/index.ts"],
       "@one-medisyn/ui": ["libs/ui/src/index.ts"]
     }
