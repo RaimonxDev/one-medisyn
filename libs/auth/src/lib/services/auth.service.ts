@@ -8,4 +8,8 @@ export class AuthService {
   login() {
     console.log('login');
   }
+
+  logout() {
+    console.log('logout');
+  }
 }
