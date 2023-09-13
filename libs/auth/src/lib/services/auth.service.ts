@@ -5,8 +5,8 @@ import { Injectable } from '@angular/core';
 })
 export class AuthService {
 
-  login() {
-    console.log('login');
+  login(value = 'default') {
+    console.log(value);
   }
 
   logout() {
